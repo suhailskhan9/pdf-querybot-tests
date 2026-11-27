@@ -1,7 +1,11 @@
 .env
 .env.*
+!.env.example
 .venv/
 __pycache__/
 .pytest_cache/
 test-results/
 *.mp4
+# evaluation outputs (baseline.json and thresholds.json ARE committed)
+eval/reports/
+eval/cache/
